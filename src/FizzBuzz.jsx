@@ -2,17 +2,17 @@ import React from "react";
 
 const FizzBuzz = (N) => {
   for (let number = 1; number <= N; number++) {
-    let output = '';
+    let output = "";
 
     if (number % 3 === 0) {
-      output += 'Fizz';
+      output += "Fizz";
     }
 
     if (number % 5 === 0) {
-      output += 'Buzz';
+      output += "Buzz";
     }
 
-    if (output === '') {
+    if (output === "") {
       output = number;
     }
 
@@ -22,4 +22,4 @@ const FizzBuzz = (N) => {
 
 export default FizzBuzz;
 
-FizzBuzz(30)
+FizzBuzz(30);
